@@ -1,9 +1,7 @@
 import asyncio
-import logging
-import sys
 
-from loader import dp, bot, config
-import middlewares, filters, handlers
+from loader import dp, bot
+import handlers
 from utils.set_bot_commands import set_default_commands
 
 
